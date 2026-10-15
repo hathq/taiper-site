@@ -16,7 +16,7 @@
     "ja": {
       "brand": "Taiper",
       "tagline": "選択を、理由の見える決定へ。",
-      "summary": "問い・選択肢・根拠・反論・判断理由を整理する意思決定支援ツールを目指します。旧TPARの意思決定支援とSemantic Languageの意味構造の取り組みをTaiperへ統合します。現在は構成と設計方針の紹介段階で、意思決定アプリの操作は提供していません。",
+      "summary": "意思決定と認知の偏りを点検し、問い・事実・解釈・仮説・反論・判断理由を整理する仕組みを目指します。sem-langを情報の意味と関係を扱う基盤ツールとして位置付け、TaiperではAIの活用方針と人による判断の境界を提示します。現在は設計紹介段階で、意思決定アプリの操作は提供していません。",
       "features": [
         {
           "id": "deliberation-case",
@@ -26,12 +26,12 @@
         {
           "id": "evidence-trace",
           "title": "根拠と意味の構造",
-          "summary": "前提、根拠、反論の関係を明示する構成を検討します。Semanticの知見を取り込みますが、独立した言語サービスの提供は行いません。"
+          "summary": "sem-langを基盤ツールとして、情報の出典、意味、関係を明示する設計です。事実と解釈を混同せず、反証や不確実性を確認できる構成を目指します。"
         },
         {
           "id": "decision-boundary",
-          "title": "判断と実行を分ける",
-          "summary": "人が確認した判断理由と結果を記録する設計です。クラウド操作や権限の行使は、この紹介サイトでは行いません。"
+          "title": "AIの支援と人の判断",
+          "summary": "AIは整理・比較・反論の発見を支援し、提案の出典と不確実性を示す方針です。判断の確定と実行権限は人に残し、自動実行へ直結させません。"
         }
       ],
       "docs": {
@@ -52,6 +52,21 @@
               "title": "目指す使い方",
               "body": [
                 "問いを定める → 選択肢と根拠を比較する → 反論と影響を検討する → 人が判断理由を確定する。実行系とは責務を分けます。"
+              ]
+            },
+            {
+              "id": "sem-lang-foundation",
+              "title": "sem-langの役割",
+              "body": [
+                "sem-langを情報の意味と関係を表現する基盤ツールとして提供する方針です。Taiper固有のAI活用方針や判断の確定は、この基盤と責務を分けます。認知の偏りを点検できる構造を目指し、偏りを完全に排除できると保証するものではありません。"
+              ]
+            },
+            {
+              "id": "ai-use-policy",
+              "title": "AI活用方針",
+              "body": [
+                "事実・解釈・仮説・AI生成の提案を区別し、出典、不確実性、反証、代替案を確認できる形で扱います。AIの出力を検証済みの事実として扱わず、人が判断理由を確定します。",
+                "機密情報や個人情報をAIへ渡す前に、送信先・利用目的・保持条件・権限を確認する方針です。現在の紹介サイトにAIへの送信やケース入力機能はありません。"
               ]
             }
           ]
@@ -97,7 +112,7 @@
     "en": {
       "brand": "Taiper",
       "tagline": "Turn choices into decisions with visible reasoning.",
-      "summary": "A decision-support tool direction for structuring questions, options, evidence, objections, and rationale. Taiper brings together the former TPAR decision-support direction and Semantic Language work. This site introduces the design; it does not provide an interactive decision application.",
+      "summary": "Taiper aims to help examine cognitive and decision-making biases by separating questions, facts, interpretations, hypotheses, objections, and rationale. sem-lang is the foundational tool for representing meaning and relationships; Taiper presents AI-use principles and boundaries for human judgment. This site introduces the design, not an interactive decision application.",
       "features": [
         {
           "id": "deliberation-case",
@@ -107,12 +122,12 @@
         {
           "id": "evidence-trace",
           "title": "Evidence and meaning",
-          "summary": "Make assumptions, evidence, and objections explicit. Incorporate Semantic work without publishing a separate language service."
+          "summary": "Use sem-lang as a foundational tool to make sources, meaning, and relationships explicit. Keep facts distinct from interpretation and expose counterevidence and uncertainty."
         },
         {
           "id": "decision-boundary",
-          "title": "Keep judgment and execution distinct",
-          "summary": "Design records of human-confirmed rationale and outcomes. This presentation site does not exercise authority or operate cloud resources."
+          "title": "AI assistance and human judgment",
+          "summary": "AI should assist organization, comparison, and discovery of objections, with sources and uncertainty visible. People retain decision confirmation and execution authority; suggestions do not trigger automatic execution."
         }
       ],
       "docs": {
@@ -133,6 +148,21 @@
               "title": "Intended workflow",
               "body": [
                 "Frame a question → compare alternatives and evidence → review objections and impacts → a person confirms the rationale. Execution remains a separate responsibility."
+              ]
+            },
+            {
+              "id": "sem-lang-foundation",
+              "title": "The role of sem-lang",
+              "body": [
+                "sem-lang is intended as a foundational tool for representing meaning and relationships. Taiper owns AI-use policy and decision confirmation separately. The design supports examining bias; it does not guarantee its elimination."
+              ]
+            },
+            {
+              "id": "ai-use-policy",
+              "title": "AI-use policy",
+              "body": [
+                "Distinguish facts, interpretations, hypotheses, and AI-generated suggestions. Preserve sources, uncertainty, counterevidence, and alternatives. Do not treat generated output as verified fact; a person confirms the rationale.",
+                "Before sending confidential or personal information to AI, check the destination, purpose, retention, and authorization. This presentation site does not submit information to AI or accept decision cases."
               ]
             }
           ]
