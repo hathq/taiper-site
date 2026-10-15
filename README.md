@@ -1,6 +1,6 @@
-# @creative/taiper-site
+# Taiper — decision support
 
-Present approved information introducing Taiper.
+Introduce Taiper at taiper.org: a decision-support direction consolidating the former TPAR and Semantic Language work. This is a presentation site, not an operational decision application. Illustration/studio content is retired.
 
 ## What you can do
 

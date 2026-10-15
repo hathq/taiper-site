@@ -14,116 +14,72 @@
   "externalActions": false,
   "content": {
     "ja": {
-      "brand": "Taiper Studio",
-      "tagline": "バクから広がる、絵とデザインの世界。",
-      "summary": "バクを中心としたイラスト、デザイン、制作記録、将来の商品情報を公開するクリエイティブスタジオです。",
+      "brand": "Taiper",
+      "tagline": "選択を、理由の見える決定へ。",
+      "summary": "問い・選択肢・根拠・反論・判断理由を整理する意思決定支援ツールを目指します。旧TPARの意思決定支援とSemantic Languageの意味構造の取り組みをTaiperへ統合します。現在は構成と設計方針の紹介段階で、意思決定アプリの操作は提供していません。",
       "features": [
         {
-          "id": "works",
-          "title": "作品",
-          "summary": "シリーズと制作意図がわかる形で作品を紹介します。"
+          "id": "deliberation-case",
+          "title": "問いと選択肢",
+          "summary": "判断する問い、候補、制約、期限を比較できる単位として整理する設計です。"
         },
         {
-          "id": "process",
-          "title": "制作記録",
-          "summary": "発想、素材、色、改善の過程を共有します。"
+          "id": "evidence-trace",
+          "title": "根拠と意味の構造",
+          "summary": "前提、根拠、反論の関係を明示する構成を検討します。Semanticの知見を取り込みますが、独立した言語サービスの提供は行いません。"
         },
         {
-          "id": "licensing",
-          "title": "利用と商品",
-          "summary": "権利、利用条件、販売状態を明確に示します。"
+          "id": "decision-boundary",
+          "title": "判断と実行を分ける",
+          "summary": "人が確認した判断理由と結果を記録する設計です。クラウド操作や権限の行使は、この紹介サイトでは行いません。"
         }
       ],
       "docs": {
         "overview": {
           "slug": "/docs",
-          "title": "概要",
-          "summary": "バクを中心としたイラスト、デザイン、制作記録、将来の商品情報を公開するクリエイティブスタジオです。",
+          "title": "Taiperの概要",
+          "summary": "検討、決定、実行の境界を分ける理由を説明します。",
           "sections": [
             {
-              "id": "purpose",
-              "title": "目的",
+              "id": "current-scope",
+              "title": "現在の提供範囲",
               "body": [
-                "バクを中心としたイラスト、デザイン、制作記録、将来の商品情報を公開するクリエイティブスタジオです。"
+                "これは意思決定支援ツールへの統合方針を紹介するサイトです。現在、ケースの保存・共同編集・判断の確定・実行連携を提供するアプリではありません。"
               ]
             },
             {
-              "id": "offering",
-              "title": "提供するもの",
+              "id": "workflow",
+              "title": "目指す使い方",
               "body": [
-                "シリーズと制作意図がわかる形で作品を紹介します。",
-                "発想、素材、色、改善の過程を共有します。",
-                "権利、利用条件、販売状態を明確に示します。"
-              ]
-            },
-            {
-              "id": "boundary",
-              "title": "責任境界",
-              "body": [
-                "画像と作品の権利は各表示に従います。現在のローカル基盤は購入、決済、許諾申請を実行しません。"
-              ]
-            },
-            {
-              "id": "page-feedback",
-              "title": "ページから改善へ",
-              "body": [
-                "対象ページ、目的、期待する挙動、package版と公開できる再現手順をownerへ共有してください。配置の調整は実際の利用とフィードバックから行います。秘密鍵、token、実顧客データは送らないでください。"
+                "問いを定める → 選択肢と根拠を比較する → 反論と影響を検討する → 人が判断理由を確定する。実行系とは責務を分けます。"
               ]
             }
           ]
         },
         "gettingStarted": {
           "slug": "/docs/getting-started",
-          "title": "はじめに",
-          "summary": "作品ごとの説明、制作日、権利表示を確認してください。商品や利用許諾は、公開された正式な案内がある場合だけ利用できます。",
+          "title": "検討を始める",
+          "summary": "意思決定ケースの設計方針を紹介します。",
           "sections": [
             {
-              "id": "start",
-              "title": "利用の流れ",
+              "id": "current-scope",
+              "title": "現在の提供範囲",
               "body": [
-                "作品ごとの説明、制作日、権利表示を確認してください。商品や利用許諾は、公開された正式な案内がある場合だけ利用できます。"
-              ]
-            },
-            {
-              "id": "language",
-              "title": "言語とURL",
-              "body": [
-                "日本語と英語は同じ情報構造を持ち、言語切替後も同じページを表示します。"
-              ]
-            },
-            {
-              "id": "availability",
-              "title": "現在の提供状態",
-              "body": [
-                "このリポジトリはローカル検証用です。公開、認証、課金、外部サービス変更は行いません。"
+                "これは意思決定支援ツールへの統合方針を紹介するサイトです。現在、ケースの保存・共同編集・判断の確定・実行連携を提供するアプリではありません。"
               ]
             }
           ]
         },
         "security": {
           "slug": "/docs/security",
-          "title": "安全性と公開境界",
-          "summary": "画像と作品の権利は各表示に従います。現在のローカル基盤は購入、決済、許諾申請を実行しません。",
+          "title": "意思決定データの安全性",
+          "summary": "検討材料を最小化し、実行権限から隔離する原則です。",
           "sections": [
             {
-              "id": "public-data",
-              "title": "公開する情報",
+              "id": "current-scope",
+              "title": "現在の提供範囲",
               "body": [
-                "Taiper Studioの公開面には、公開承認された説明と文書だけを含めます。"
-              ]
-            },
-            {
-              "id": "private-data",
-              "title": "保持しない情報",
-              "body": [
-                "資格情報、顧客情報、個人の機微情報、非公開ソース、解析識別子は設定に含めません。"
-              ]
-            },
-            {
-              "id": "limits",
-              "title": "制約",
-              "body": [
-                "画像と作品の権利は各表示に従います。現在のローカル基盤は購入、決済、許諾申請を実行しません。"
+                "これは意思決定支援ツールへの統合方針を紹介するサイトです。現在、ケースの保存・共同編集・判断の確定・実行連携を提供するアプリではありません。"
               ]
             }
           ]
@@ -131,124 +87,80 @@
       },
       "privacy": {
         "label": "プライバシー",
-        "summary": "このローカル公開面はCookie、解析識別子、問い合わせ内容を収集しません。収集機能は別途の審査と同意設計後にのみ追加します。"
+        "summary": "この紹介サイトに検討ケース、個人情報、顧客資料を入力する機能はありません。"
       },
       "contact": {
-        "label": "お問い合わせ",
-        "summary": "問い合わせ送信機能は未接続です。責任部門と保管条件を承認した公開窓口だけを将来表示します。"
+        "label": "Taiperに関する連絡",
+        "summary": "公開可能な仕様への意見はGitHubのhathq/taiper-siteへお寄せください。実際の判断ケースや秘密資料は送らないでください。"
       }
     },
     "en": {
-      "brand": "Taiper Studio",
-      "tagline": "An illustrated and designed world inspired by tapirs.",
-      "summary": "A creative studio publishing tapir-inspired illustration, design, process notes, and future product information.",
+      "brand": "Taiper",
+      "tagline": "Turn choices into decisions with visible reasoning.",
+      "summary": "A decision-support tool direction for structuring questions, options, evidence, objections, and rationale. Taiper brings together the former TPAR decision-support direction and Semantic Language work. This site introduces the design; it does not provide an interactive decision application.",
       "features": [
         {
-          "id": "works",
-          "title": "Works",
-          "summary": "Presents works with their series and creative intent."
+          "id": "deliberation-case",
+          "title": "Questions and options",
+          "summary": "Design a comparable unit of questions, alternatives, constraints, and deadlines."
         },
         {
-          "id": "process",
-          "title": "Process notes",
-          "summary": "Shares ideation, materials, color, and iteration."
+          "id": "evidence-trace",
+          "title": "Evidence and meaning",
+          "summary": "Make assumptions, evidence, and objections explicit. Incorporate Semantic work without publishing a separate language service."
         },
         {
-          "id": "licensing",
-          "title": "Use and products",
-          "summary": "Makes rights, usage conditions, and sales status explicit."
+          "id": "decision-boundary",
+          "title": "Keep judgment and execution distinct",
+          "summary": "Design records of human-confirmed rationale and outcomes. This presentation site does not exercise authority or operate cloud resources."
         }
       ],
       "docs": {
         "overview": {
           "slug": "/docs",
-          "title": "Overview",
-          "summary": "A creative studio publishing tapir-inspired illustration, design, process notes, and future product information.",
+          "title": "Taiper overview",
+          "summary": "Explains why deliberation, decision, and execution are separate boundaries.",
           "sections": [
             {
-              "id": "purpose",
-              "title": "Purpose",
+              "id": "current-scope",
+              "title": "Current scope",
               "body": [
-                "A creative studio publishing tapir-inspired illustration, design, process notes, and future product information."
+                "This site introduces the consolidation direction. Case storage, collaboration, decision confirmation, and execution integrations are not available here."
               ]
             },
             {
-              "id": "offering",
-              "title": "What we provide",
+              "id": "workflow",
+              "title": "Intended workflow",
               "body": [
-                "Presents works with their series and creative intent.",
-                "Shares ideation, materials, color, and iteration.",
-                "Makes rights, usage conditions, and sales status explicit."
-              ]
-            },
-            {
-              "id": "boundary",
-              "title": "Responsibility boundary",
-              "body": [
-                "Image and work rights follow their individual notices. The current local foundation does not execute purchases, payments, or license requests."
-              ]
-            },
-            {
-              "id": "page-feedback",
-              "title": "From page to feedback",
-              "body": [
-                "Share the page, purpose, expected behavior, package version and public reproduction steps with the owner. Refine placement using actual usage and feedback. Do not share tokens, keys or customer data."
+                "Frame a question → compare alternatives and evidence → review objections and impacts → a person confirms the rationale. Execution remains a separate responsibility."
               ]
             }
           ]
         },
         "gettingStarted": {
           "slug": "/docs/getting-started",
-          "title": "Getting started",
-          "summary": "Review each work’s description, date, and rights notice. Products or licenses are available only when an official offer is published.",
+          "title": "Start a deliberation",
+          "summary": "Introduces the intended decision-case workflow.",
           "sections": [
             {
-              "id": "start",
-              "title": "How to begin",
+              "id": "current-scope",
+              "title": "Current scope",
               "body": [
-                "Review each work’s description, date, and rights notice. Products or licenses are available only when an official offer is published."
-              ]
-            },
-            {
-              "id": "language",
-              "title": "Languages and URLs",
-              "body": [
-                "Japanese and English use the same information structure and preserve the current page when switching language."
-              ]
-            },
-            {
-              "id": "availability",
-              "title": "Current availability",
-              "body": [
-                "This repository is for local verification. It does not publish, authenticate, bill, or mutate external services."
+                "This site introduces the consolidation direction. Case storage, collaboration, decision confirmation, and execution integrations are not available here."
               ]
             }
           ]
         },
         "security": {
           "slug": "/docs/security",
-          "title": "Safety and publication boundary",
-          "summary": "Image and work rights follow their individual notices. The current local foundation does not execute purchases, payments, or license requests.",
+          "title": "Decision-data security",
+          "summary": "Principles for minimizing evidence and isolating it from execution authority.",
           "sections": [
             {
-              "id": "public-data",
-              "title": "Public information",
+              "id": "current-scope",
+              "title": "Current scope",
               "body": [
-                "The Taiper Studio public surface contains only approved public descriptions and documentation."
-              ]
-            },
-            {
-              "id": "private-data",
-              "title": "Information not held here",
-              "body": [
-                "Configuration excludes credentials, customer records, sensitive personal data, private source, and analytics identifiers."
-              ]
-            },
-            {
-              "id": "limits",
-              "title": "Limitations",
-              "body": [
-                "Image and work rights follow their individual notices. The current local foundation does not execute purchases, payments, or license requests."
+                "This site introduces the consolidation direction. Case storage, collaboration, decision confirmation, and execution integrations are not available here."
               ]
             }
           ]
@@ -256,11 +168,11 @@
       },
       "privacy": {
         "label": "Privacy",
-        "summary": "This local public surface collects no cookies, analytics identifiers, or inquiry content. Collection may be added only after separate review and consent design."
+        "summary": "This presentation site provides no form for entering decision cases, personal information, or customer records."
       },
       "contact": {
-        "label": "Contact",
-        "summary": "Inquiry submission is not connected. A public channel will be shown only after its responsible team and retention terms are approved."
+        "label": "Taiper contact",
+        "summary": "Share public specification feedback on GitHub at hathq/taiper-site. Do not submit real decision cases or confidential records."
       }
     }
   }
