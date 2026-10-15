@@ -1,7 +1,7 @@
 {
   "schema": "nuxtjp://localized-site/site-config/v1",
-  "siteId": "taiper-studio-site",
-  "serviceId": "taiper-studio",
+  "siteId": "taiper-site",
+  "serviceId": "taiper-decision-support",
   "origin": "https://taiper.org",
   "audienceScope": "japan",
   "defaultLocale": "ja",
