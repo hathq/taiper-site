@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "site": "taiper",
+  "source_file": "exec-59af812f-93b5-49e3-8876-9b48b00c9a7f.png",
+  "sha256": "f56def07c9740e5fc4976e11491e65f51943ba09f5c42ff8fee44bf56735a60d",
+  "artwork": "User-provided generated artwork, copied without alteration",
+  "theme": {
+    "accent": "#087e79",
+    "paper": "#f3faf8",
+    "ink": "#102d46"
+  }
+}
