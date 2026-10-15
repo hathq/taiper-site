@@ -91,7 +91,7 @@
       },
       "contact": {
         "label": "Taiperに関する連絡",
-        "summary": "公開可能な仕様への意見はGitHubのhathq/taiper-siteへお寄せください。実際の判断ケースや秘密資料は送らないでください。"
+        "summary": "公開可能な仕様への意見はGitHubのtparty/taiper-siteへお寄せください。実際の判断ケースや秘密資料は送らないでください。"
       }
     },
     "en": {
@@ -172,7 +172,7 @@
       },
       "contact": {
         "label": "Taiper contact",
-        "summary": "Share public specification feedback on GitHub at hathq/taiper-site. Do not submit real decision cases or confidential records."
+        "summary": "Share public specification feedback on GitHub at tparty/taiper-site. Do not submit real decision cases or confidential records."
       }
     }
   }
