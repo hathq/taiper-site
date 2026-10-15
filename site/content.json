@@ -1,0 +1,969 @@
+{
+  "siteId": "taiper",
+  "origin": "https://taiper.org",
+  "defaultLocale": "ja",
+  "locales": {
+    "ja": {
+      "brand": "Taiper",
+      "caption": "",
+      "origin": "https://taiper.org",
+      "locale": "ja",
+      "accent": "#087e79",
+      "navigation": [
+        {
+          "title": "考え方を知る",
+          "href": "/approach"
+        },
+        {
+          "title": "活用シーン",
+          "href": "/use-cases"
+        },
+        {
+          "title": "AI活用方針",
+          "href": "/ai"
+        },
+        {
+          "title": "ドキュメント",
+          "href": "/docs"
+        },
+        {
+          "title": "読みもの",
+          "href": "/journal"
+        }
+      ],
+      "pages": [
+        {
+          "path": "/",
+          "title": "考える材料を、\n偏りなく見渡す。",
+          "summary": "問い、根拠、選択肢、不確実性。意思決定の過程を整理し、AIとの向き合い方を考える。",
+          "sections": [
+            {
+              "title": "目的から、次の一歩へ。",
+              "text": "関心のあるテーマから、機能と使い方をご覧ください。",
+              "links": [
+                {
+                  "title": "問いをはっきりさせる",
+                  "href": "/approach/questions",
+                  "summary": "目的、選択肢、制約を分け、何を判断しようとしているのかを共有します。",
+                  "icon": "/brand/icons/search.svg"
+                },
+                {
+                  "title": "根拠をたどる",
+                  "href": "/approach/evidence",
+                  "summary": "事実と解釈を区別し、反証や不確実性も一緒に検討するための構造を考えます。",
+                  "icon": "/brand/icons/flow.svg"
+                },
+                {
+                  "title": "AIを、思考の補助に",
+                  "href": "/approach/ai",
+                  "summary": "AIは整理や比較を支援するもの。判断を委ねず、出典と前提を確かめる方針を示します。",
+                  "icon": "/brand/icons/document.svg"
+                }
+              ]
+            },
+            {
+              "title": "使い方をイメージする",
+              "text": "用途ごとに、取り組み方と選ぶ道具を整理しています。",
+              "links": [
+                {
+                  "title": "活用シーンを見る",
+                  "href": "/use-cases"
+                },
+                {
+                  "title": "ガイドを読む",
+                  "href": "/docs"
+                }
+              ]
+            },
+            {
+              "title": "考える道具の基盤",
+              "text": "sem-langで、情報の意味とつながりを明示します。",
+              "links": [
+                {
+                  "title": "sem-lang",
+                  "href": "/tools/sem-lang",
+                  "icon": "/brand/icons/code.svg"
+                }
+              ]
+            }
+          ],
+          "kind": "home",
+          "label": "Taiper",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/approach",
+          "title": "考え方を知る",
+          "summary": "問い、根拠、選択肢、不確実性。意思決定の過程を整理し、AIとの向き合い方を考える。",
+          "sections": [
+            {
+              "title": "問いをはっきりさせる",
+              "text": "目的、選択肢、制約を分け、何を判断しようとしているのかを共有します。",
+              "links": [
+                {
+                  "title": "詳しく読む",
+                  "href": "/approach/questions",
+                  "icon": "/brand/icons/search.svg"
+                }
+              ]
+            },
+            {
+              "title": "根拠をたどる",
+              "text": "事実と解釈を区別し、反証や不確実性も一緒に検討するための構造を考えます。",
+              "links": [
+                {
+                  "title": "詳しく読む",
+                  "href": "/approach/evidence",
+                  "icon": "/brand/icons/flow.svg"
+                }
+              ]
+            },
+            {
+              "title": "AIを、思考の補助に",
+              "text": "AIは整理や比較を支援するもの。判断を委ねず、出典と前提を確かめる方針を示します。",
+              "links": [
+                {
+                  "title": "詳しく読む",
+                  "href": "/approach/ai",
+                  "icon": "/brand/icons/document.svg"
+                }
+              ]
+            }
+          ],
+          "kind": "page",
+          "label": "考え方を知る",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/approach/questions",
+          "title": "問いをはっきりさせる",
+          "summary": "目的、選択肢、制約を分け、何を判断しようとしているのかを共有します。",
+          "sections": [
+            {
+              "title": "こんなときに",
+              "text": "目的と扱う情報を整理し、必要な機能から小さく組み合わせます。",
+              "links": [
+                {
+                  "title": "使い方を確認する",
+                  "href": "/docs/getting-started"
+                }
+              ]
+            },
+            {
+              "title": "次に進む",
+              "text": "使い方や関連するテーマを、ガイドで確認できます。",
+              "links": [
+                {
+                  "title": "活用シーン",
+                  "href": "/use-cases"
+                },
+                {
+                  "title": "考え方を知る",
+                  "href": "/approach"
+                }
+              ]
+            }
+          ],
+          "kind": "page",
+          "label": "問いをはっきりさせる",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/approach/evidence",
+          "title": "根拠をたどる",
+          "summary": "事実と解釈を区別し、反証や不確実性も一緒に検討するための構造を考えます。",
+          "sections": [
+            {
+              "title": "こんなときに",
+              "text": "目的と扱う情報を整理し、必要な機能から小さく組み合わせます。",
+              "links": [
+                {
+                  "title": "使い方を確認する",
+                  "href": "/docs/getting-started"
+                }
+              ]
+            },
+            {
+              "title": "次に進む",
+              "text": "使い方や関連するテーマを、ガイドで確認できます。",
+              "links": [
+                {
+                  "title": "活用シーン",
+                  "href": "/use-cases"
+                },
+                {
+                  "title": "考え方を知る",
+                  "href": "/approach"
+                }
+              ]
+            }
+          ],
+          "kind": "page",
+          "label": "根拠をたどる",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/approach/ai",
+          "title": "AIを、思考の補助に",
+          "summary": "AIは整理や比較を支援するもの。判断を委ねず、出典と前提を確かめる方針を示します。",
+          "sections": [
+            {
+              "title": "こんなときに",
+              "text": "目的と扱う情報を整理し、必要な機能から小さく組み合わせます。",
+              "links": [
+                {
+                  "title": "使い方を確認する",
+                  "href": "/docs/getting-started"
+                }
+              ]
+            },
+            {
+              "title": "次に進む",
+              "text": "使い方や関連するテーマを、ガイドで確認できます。",
+              "links": [
+                {
+                  "title": "活用シーン",
+                  "href": "/use-cases"
+                },
+                {
+                  "title": "考え方を知る",
+                  "href": "/approach"
+                }
+              ]
+            }
+          ],
+          "kind": "page",
+          "label": "AIを、思考の補助に",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/use-cases",
+          "title": "使う場面から、考える。",
+          "summary": "目的に合わせて、情報の扱いと道具の選び方を整理します。",
+          "sections": [
+            {
+              "title": "問いをはっきりさせる",
+              "text": "目的、選択肢、制約を分け、何を判断しようとしているのかを共有します。",
+              "links": [
+                {
+                  "title": "機能を見る",
+                  "href": "/approach/questions",
+                  "icon": "/brand/icons/search.svg"
+                }
+              ]
+            },
+            {
+              "title": "根拠をたどる",
+              "text": "事実と解釈を区別し、反証や不確実性も一緒に検討するための構造を考えます。",
+              "links": [
+                {
+                  "title": "機能を見る",
+                  "href": "/approach/evidence",
+                  "icon": "/brand/icons/flow.svg"
+                }
+              ]
+            },
+            {
+              "title": "AIを、思考の補助に",
+              "text": "AIは整理や比較を支援するもの。判断を委ねず、出典と前提を確かめる方針を示します。",
+              "links": [
+                {
+                  "title": "機能を見る",
+                  "href": "/approach/ai",
+                  "icon": "/brand/icons/document.svg"
+                }
+              ]
+            }
+          ],
+          "kind": "page",
+          "label": "使う場面から、考える。",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/ai",
+          "title": "AIを、判断の代わりにしない。",
+          "summary": "出典を確かめ、異なる見方を比べ、人が判断する。TaiperのAI活用方針です。",
+          "sections": [
+            {
+              "title": "事実と解釈を分ける",
+              "text": "出典、観測、推論を区別し、不確実な情報を確定した事実として扱いません。",
+              "links": []
+            },
+            {
+              "title": "反論を検討する",
+              "text": "結論に合う情報だけを集めず、異なる選択肢と反証も比較します。",
+              "links": []
+            },
+            {
+              "title": "判断と実行を分ける",
+              "text": "AIによる提案は、人による確認や操作の許可を代替しません。",
+              "links": []
+            }
+          ],
+          "kind": "page",
+          "label": "AIを、判断の代わりにしない。",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/tools/sem-lang",
+          "title": "sem-lang",
+          "summary": "情報の意味と関係を記述する、Taiperの基盤ツール。",
+          "sections": [
+            {
+              "title": "意味を、共有できる形に",
+              "text": "事実、解釈、関係を構造化し、情報を扱う道具の共通基盤とします。",
+              "links": [
+                {
+                  "title": "sem-lang",
+                  "href": "https://sem-lang.taiper.org"
+                }
+              ]
+            }
+          ],
+          "kind": "page",
+          "label": "sem-lang",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/docs/sem-lang",
+          "title": "sem-langのガイド",
+          "summary": "情報の意味を表すための考え方を紹介します。",
+          "sections": [
+            {
+              "title": "基盤として使う",
+              "text": "Taiperはsem-langを情報の構造化に利用する方針です。言語の仕様と、製品側の判断・操作を分けて扱います。",
+              "links": []
+            }
+          ],
+          "kind": "page",
+          "label": "sem-langのガイド",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/docs",
+          "title": "ガイドとドキュメント",
+          "summary": "目的に合わせて、使い方と設計の考え方を確認できます。",
+          "sections": [
+            {
+              "title": "はじめの一歩",
+              "text": "目的を確認し、必要な機能から始めましょう。",
+              "links": [
+                {
+                  "title": "導入ガイド",
+                  "href": "/docs/getting-started"
+                },
+                {
+                  "title": "安全に使うために",
+                  "href": "/security"
+                }
+              ]
+            }
+          ],
+          "kind": "page",
+          "label": "ガイドとドキュメント",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/docs/getting-started",
+          "title": "はじめる前に、道筋をつかむ。",
+          "summary": "機能、使う場面、データの扱いを確認するためのガイドです。",
+          "sections": [
+            {
+              "title": "目的を選ぶ",
+              "text": "取り組む内容を機能や用途のページで確認します。",
+              "links": [
+                {
+                  "title": "考え方を知る",
+                  "href": "/approach"
+                }
+              ]
+            },
+            {
+              "title": "利用条件を確認する",
+              "text": "導入するソフトウェアの対応環境、ライセンス、提供版を確認してください。",
+              "links": []
+            }
+          ],
+          "kind": "page",
+          "label": "はじめる前に、道筋をつかむ。",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/journal",
+          "title": "考え方と、実践の記録。",
+          "summary": "設計、開発、AI活用のテーマから、読みものをお届けします。",
+          "sections": [
+            {
+              "title": "テーマから読む",
+              "text": "記事と合わせて、関連するガイドもご覧いただけます。",
+              "links": [
+                {
+                  "title": "設計と使い方",
+                  "href": "/docs"
+                },
+                {
+                  "title": "情報の扱い",
+                  "href": "/security"
+                }
+              ]
+            }
+          ],
+          "kind": "journal",
+          "label": "考え方と、実践の記録。",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/privacy",
+          "title": "プライバシー",
+          "summary": "このサイトで扱う情報について。",
+          "sections": [
+            {
+              "title": "閲覧時の情報",
+              "text": "このサイトは静的なページを配信します。配信とセキュリティのため、配信事業者がIPアドレスなどの通信情報を処理します。独自のアクセス解析やログイン機能は設置していません。",
+              "links": []
+            },
+            {
+              "title": "外部サイト",
+              "text": "外部リンク先では、それぞれのプライバシー方針をご確認ください。",
+              "links": []
+            }
+          ],
+          "kind": "page",
+          "label": "プライバシー",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/security",
+          "title": "安心して使うために。",
+          "summary": "情報と操作の範囲を確かめるための基本的な考え方。",
+          "sections": [
+            {
+              "title": "秘密情報を共有しない",
+              "text": "公開のIssueや問い合わせに、パスワード、トークン、個人情報を記載しないでください。",
+              "links": []
+            },
+            {
+              "title": "操作の前に確認する",
+              "text": "対象と権限を確かめ、必要な範囲だけを許可してください。製品ごとの利用ガイドとセキュリティ方針も確認してください。",
+              "links": []
+            }
+          ],
+          "kind": "page",
+          "label": "安心して使うために。",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/sitemap",
+          "title": "サイトマップ",
+          "summary": "ページを一覧から探す。",
+          "sections": [],
+          "kind": "page",
+          "label": "サイトマップ",
+          "category": "",
+          "status": "published"
+        }
+      ],
+      "resources": [],
+      "icon": "/brand/icon.png",
+      "secondaryAction": {
+        "title": "AI活用方針",
+        "href": "/ai"
+      }
+    },
+    "en": {
+      "brand": "Taiper",
+      "caption": "",
+      "origin": "https://taiper.org",
+      "locale": "en",
+      "accent": "#087e79",
+      "navigation": [
+        {
+          "title": "Explore the approach",
+          "href": "/approach"
+        },
+        {
+          "title": "Use cases",
+          "href": "/use-cases"
+        },
+        {
+          "title": "AI principles",
+          "href": "/ai"
+        },
+        {
+          "title": "Docs",
+          "href": "/docs"
+        },
+        {
+          "title": "Journal",
+          "href": "/journal"
+        }
+      ],
+      "pages": [
+        {
+          "path": "/",
+          "title": "See the evidence.\nKeep your perspective.",
+          "summary": "Organize questions, evidence, alternatives and uncertainty, and develop a considered approach to AI-assisted decisions.",
+          "sections": [
+            {
+              "title": "Find your next step.",
+              "text": "Explore capabilities and guides by the work you want to do.",
+              "links": [
+                {
+                  "title": "Frame the question",
+                  "href": "/approach/questions",
+                  "summary": "Make objectives, alternatives and constraints explicit before choosing.",
+                  "icon": "/brand/icons/search.svg"
+                },
+                {
+                  "title": "Trace the evidence",
+                  "href": "/approach/evidence",
+                  "summary": "Distinguish facts from interpretations and consider counter-evidence and uncertainty.",
+                  "icon": "/brand/icons/flow.svg"
+                },
+                {
+                  "title": "Use AI thoughtfully",
+                  "href": "/approach/ai",
+                  "summary": "Use AI for organization and comparison while keeping judgment and source review with people.",
+                  "icon": "/brand/icons/document.svg"
+                }
+              ]
+            },
+            {
+              "title": "Explore the possibilities",
+              "text": "Find a workflow and the tools that fit your use case.",
+              "links": [
+                {
+                  "title": "Explore use cases",
+                  "href": "/use-cases"
+                },
+                {
+                  "title": "Read the guides",
+                  "href": "/docs"
+                }
+              ]
+            },
+            {
+              "title": "Tools for structured thinking",
+              "text": "Use sem-lang to make meaning and relationships explicit.",
+              "links": [
+                {
+                  "title": "sem-lang",
+                  "href": "/tools/sem-lang",
+                  "icon": "/brand/icons/code.svg"
+                }
+              ]
+            }
+          ],
+          "kind": "home",
+          "label": "Taiper",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/approach",
+          "title": "Explore the approach",
+          "summary": "Organize questions, evidence, alternatives and uncertainty, and develop a considered approach to AI-assisted decisions.",
+          "sections": [
+            {
+              "title": "Frame the question",
+              "text": "Make objectives, alternatives and constraints explicit before choosing.",
+              "links": [
+                {
+                  "title": "Explore the capability",
+                  "href": "/approach/questions",
+                  "icon": "/brand/icons/search.svg"
+                }
+              ]
+            },
+            {
+              "title": "Trace the evidence",
+              "text": "Distinguish facts from interpretations and consider counter-evidence and uncertainty.",
+              "links": [
+                {
+                  "title": "Explore the capability",
+                  "href": "/approach/evidence",
+                  "icon": "/brand/icons/flow.svg"
+                }
+              ]
+            },
+            {
+              "title": "Use AI thoughtfully",
+              "text": "Use AI for organization and comparison while keeping judgment and source review with people.",
+              "links": [
+                {
+                  "title": "Explore the capability",
+                  "href": "/approach/ai",
+                  "icon": "/brand/icons/document.svg"
+                }
+              ]
+            }
+          ],
+          "kind": "page",
+          "label": "Explore the approach",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/approach/questions",
+          "title": "Frame the question",
+          "summary": "Make objectives, alternatives and constraints explicit before choosing.",
+          "sections": [
+            {
+              "title": "When to use it",
+              "text": "Start with the information and outcome you need, then combine focused capabilities.",
+              "links": [
+                {
+                  "title": "Read the guide",
+                  "href": "/docs/getting-started"
+                }
+              ]
+            },
+            {
+              "title": "Next steps",
+              "text": "Explore the guides and related topics.",
+              "links": [
+                {
+                  "title": "Use cases",
+                  "href": "/use-cases"
+                },
+                {
+                  "title": "Explore the approach",
+                  "href": "/approach"
+                }
+              ]
+            }
+          ],
+          "kind": "page",
+          "label": "Frame the question",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/approach/evidence",
+          "title": "Trace the evidence",
+          "summary": "Distinguish facts from interpretations and consider counter-evidence and uncertainty.",
+          "sections": [
+            {
+              "title": "When to use it",
+              "text": "Start with the information and outcome you need, then combine focused capabilities.",
+              "links": [
+                {
+                  "title": "Read the guide",
+                  "href": "/docs/getting-started"
+                }
+              ]
+            },
+            {
+              "title": "Next steps",
+              "text": "Explore the guides and related topics.",
+              "links": [
+                {
+                  "title": "Use cases",
+                  "href": "/use-cases"
+                },
+                {
+                  "title": "Explore the approach",
+                  "href": "/approach"
+                }
+              ]
+            }
+          ],
+          "kind": "page",
+          "label": "Trace the evidence",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/approach/ai",
+          "title": "Use AI thoughtfully",
+          "summary": "Use AI for organization and comparison while keeping judgment and source review with people.",
+          "sections": [
+            {
+              "title": "When to use it",
+              "text": "Start with the information and outcome you need, then combine focused capabilities.",
+              "links": [
+                {
+                  "title": "Read the guide",
+                  "href": "/docs/getting-started"
+                }
+              ]
+            },
+            {
+              "title": "Next steps",
+              "text": "Explore the guides and related topics.",
+              "links": [
+                {
+                  "title": "Use cases",
+                  "href": "/use-cases"
+                },
+                {
+                  "title": "Explore the approach",
+                  "href": "/approach"
+                }
+              ]
+            }
+          ],
+          "kind": "page",
+          "label": "Use AI thoughtfully",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/use-cases",
+          "title": "Start with the work.",
+          "summary": "Explore approaches to organizing information and selecting tools.",
+          "sections": [
+            {
+              "title": "Frame the question",
+              "text": "Make objectives, alternatives and constraints explicit before choosing.",
+              "links": [
+                {
+                  "title": "Explore the capability",
+                  "href": "/approach/questions",
+                  "icon": "/brand/icons/search.svg"
+                }
+              ]
+            },
+            {
+              "title": "Trace the evidence",
+              "text": "Distinguish facts from interpretations and consider counter-evidence and uncertainty.",
+              "links": [
+                {
+                  "title": "Explore the capability",
+                  "href": "/approach/evidence",
+                  "icon": "/brand/icons/flow.svg"
+                }
+              ]
+            },
+            {
+              "title": "Use AI thoughtfully",
+              "text": "Use AI for organization and comparison while keeping judgment and source review with people.",
+              "links": [
+                {
+                  "title": "Explore the capability",
+                  "href": "/approach/ai",
+                  "icon": "/brand/icons/document.svg"
+                }
+              ]
+            }
+          ],
+          "kind": "page",
+          "label": "Start with the work.",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/ai",
+          "title": "AI supports judgment. It does not replace it.",
+          "summary": "Trace sources, compare perspectives and keep decisions with people.",
+          "sections": [
+            {
+              "title": "Separate facts and interpretation",
+              "text": "Distinguish sources, observations and inferences, and retain uncertainty.",
+              "links": []
+            },
+            {
+              "title": "Consider counter-evidence",
+              "text": "Consider alternatives and counter-evidence alongside supporting information.",
+              "links": []
+            },
+            {
+              "title": "Separate decisions and effects",
+              "text": "AI suggestions do not replace human review or authorization.",
+              "links": []
+            }
+          ],
+          "kind": "page",
+          "label": "AI supports judgment. It does not replace it.",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/tools/sem-lang",
+          "title": "sem-lang",
+          "summary": "A foundation for describing meaning and relationships.",
+          "sections": [
+            {
+              "title": "Make meaning explicit",
+              "text": "Structure facts, interpretations and relationships for tools that work with information.",
+              "links": [
+                {
+                  "title": "sem-lang",
+                  "href": "https://sem-lang.taiper.org"
+                }
+              ]
+            }
+          ],
+          "kind": "page",
+          "label": "sem-lang",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/docs/sem-lang",
+          "title": "sem-lang guide",
+          "summary": "An introduction to representing meaning.",
+          "sections": [
+            {
+              "title": "A shared foundation",
+              "text": "Taiper uses sem-lang as a foundation for structuring information, while product decisions and operations remain separate.",
+              "links": []
+            }
+          ],
+          "kind": "page",
+          "label": "sem-lang guide",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/docs",
+          "title": "Guides and documentation",
+          "summary": "Explore usage guides and design principles.",
+          "sections": [
+            {
+              "title": "Getting started",
+              "text": "Start with your goal and the capabilities you need.",
+              "links": [
+                {
+                  "title": "Getting started",
+                  "href": "/docs/getting-started"
+                },
+                {
+                  "title": "Security guide",
+                  "href": "/security"
+                }
+              ]
+            }
+          ],
+          "kind": "page",
+          "label": "Guides and documentation",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/docs/getting-started",
+          "title": "Find a path before getting started.",
+          "summary": "A guide to capabilities, use cases and data boundaries.",
+          "sections": [
+            {
+              "title": "Choose a goal",
+              "text": "Explore the capability or use-case pages for the work you have in mind.",
+              "links": [
+                {
+                  "title": "Explore the approach",
+                  "href": "/approach"
+                }
+              ]
+            },
+            {
+              "title": "Review usage conditions",
+              "text": "Check the supported environment, license and available release of the software you select.",
+              "links": []
+            }
+          ],
+          "kind": "page",
+          "label": "Find a path before getting started.",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/journal",
+          "title": "Ideas and practice.",
+          "summary": "Writing about design, development and the thoughtful use of AI.",
+          "sections": [
+            {
+              "title": "Explore by topic",
+              "text": "Explore the related guides while new stories are being prepared.",
+              "links": [
+                {
+                  "title": "Design and usage",
+                  "href": "/docs"
+                },
+                {
+                  "title": "Information boundaries",
+                  "href": "/security"
+                }
+              ]
+            }
+          ],
+          "kind": "journal",
+          "label": "Ideas and practice.",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/privacy",
+          "title": "Privacy",
+          "summary": "How information is handled on this site.",
+          "sections": [
+            {
+              "title": "Browsing information",
+              "text": "This site serves static pages. The hosting provider processes connection information, including IP addresses, for delivery and security. No site-operated analytics or login is installed.",
+              "links": []
+            },
+            {
+              "title": "External sites",
+              "text": "External sites have their own privacy policies.",
+              "links": []
+            }
+          ],
+          "kind": "page",
+          "label": "Privacy",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/security",
+          "title": "Use tools with confidence.",
+          "summary": "Principles for understanding information and operation boundaries.",
+          "sections": [
+            {
+              "title": "Protect credentials",
+              "text": "Do not include passwords, tokens or personal data in public issues or inquiries.",
+              "links": []
+            },
+            {
+              "title": "Review before operating",
+              "text": "Check targets and permissions and authorize only what is needed. Review the guide and security policy for each product.",
+              "links": []
+            }
+          ],
+          "kind": "page",
+          "label": "Use tools with confidence.",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/sitemap",
+          "title": "Sitemap",
+          "summary": "Find a page by name.",
+          "sections": [],
+          "kind": "page",
+          "label": "Sitemap",
+          "category": "",
+          "status": "published"
+        }
+      ],
+      "resources": [],
+      "icon": "/brand/icon.png",
+      "secondaryAction": {
+        "title": "AI principles",
+        "href": "/ai"
+      }
+    }
+  }
+}
