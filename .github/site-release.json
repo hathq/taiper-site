@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "repository": "tparty/taiper-site",
+  "defaultBranch": "main",
+  "requiredWorkflows": [
+    "site-source.yml",
+    "oss-policy.yml"
+  ],
+  "sites": [
+    {
+      "id": "taiper",
+      "version": "0.1.0",
+      "account": "0655772369a7b3425e3398313a36521b",
+      "worker": "taiper-site",
+      "domain": "taiper.org",
+      "origin": "https://taiper.org",
+      "environment": "site-production-taiper",
+      "siteConfig": "site.config.json",
+      "appDirectory": ".",
+      "assetDirectory": ".output/public",
+      "buildKind": "nuxt-generate"
+    }
+  ]
+}
