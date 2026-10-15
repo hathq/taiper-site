@@ -1,5 +1,5 @@
 /* Site-owned product theme; shared locale routes and document rendering remain in the registry module. */
-:root { --product-ink: #4a355e; --product-paper: #faf6fd; --product-accent: #8c60af; background: var(--product-paper); color: var(--product-ink); }
+:root { --product-ink: #172d3e; --product-paper: #f5f8fa; --product-accent: #167a75; background: var(--product-paper); color: var(--product-ink); }
 body { background: var(--product-paper); }
 .nls-shell { background: var(--product-paper); color: var(--product-ink); }
 .nls-header { padding-block: 26px; border-bottom: 1px solid color-mix(in srgb, var(--product-ink) 15%, transparent); }
