@@ -25,21 +25,17 @@
         {
           "title": "ドキュメント",
           "href": "/docs"
-        },
-        {
-          "title": "読みもの",
-          "href": "/journal"
         }
       ],
       "pages": [
         {
           "path": "/",
-          "title": "考える材料を、\n偏りなく見渡す。",
+          "title": "考える材料を、\n確かめながら整理する。",
           "summary": "問い、根拠、選択肢、不確実性。意思決定の過程を整理し、AIとの向き合い方を考える。",
           "sections": [
             {
-              "title": "目的から、次の一歩へ。",
-              "text": "関心のあるテーマから、機能と使い方をご覧ください。",
+              "title": "問いと根拠を、分けて整理する",
+              "text": "事実、解釈、仮説、出典を区別し、代替案と反証も含めて検討するための考え方を紹介します。",
               "links": [
                 {
                   "title": "問いをはっきりさせる",
@@ -62,16 +58,16 @@
               ]
             },
             {
-              "title": "使い方をイメージする",
-              "text": "用途ごとに、取り組み方と選ぶ道具を整理しています。",
+              "title": "判断の主体は、人のままに",
+              "text": "AIの提案をそのまま事実や決定とせず、根拠を確かめて判断するための活用方針を示します。",
               "links": [
                 {
-                  "title": "活用シーンを見る",
-                  "href": "/use-cases"
+                  "title": "AI活用方針",
+                  "href": "/ai"
                 },
                 {
-                  "title": "ガイドを読む",
-                  "href": "/docs"
+                  "title": "判断を整理する場面",
+                  "href": "/use-cases"
                 }
               ]
             },
@@ -243,8 +239,8 @@
         },
         {
           "path": "/use-cases",
-          "title": "使う場面から、考える。",
-          "summary": "目的に合わせて、情報の扱いと道具の選び方を整理します。",
+          "title": "問い・根拠・代替案を整理する",
+          "summary": "各場面から、Taiperの使い方と関連するガイドへ進めます。",
           "sections": [
             {
               "title": "問いをはっきりさせる",
@@ -281,7 +277,7 @@
             }
           ],
           "kind": "page",
-          "label": "使う場面から、考える。",
+          "label": "問い・根拠・代替案を整理する",
           "category": "",
           "status": "published"
         },
@@ -350,7 +346,7 @@
         },
         {
           "path": "/docs",
-          "title": "ガイドとドキュメント",
+          "title": "Taiperのガイド",
           "summary": "目的に合わせて、使い方と設計の考え方を確認できます。",
           "sections": [
             {
@@ -369,7 +365,7 @@
             }
           ],
           "kind": "page",
-          "label": "ガイドとドキュメント",
+          "label": "Taiperのガイド",
           "category": "",
           "status": "published"
         },
@@ -506,21 +502,17 @@
         {
           "title": "Docs",
           "href": "/docs"
-        },
-        {
-          "title": "Journal",
-          "href": "/journal"
         }
       ],
       "pages": [
         {
           "path": "/",
-          "title": "See the evidence.\nKeep your perspective.",
+          "title": "Organize the evidence.\nMake a considered decision.",
           "summary": "Organize questions, evidence, alternatives and uncertainty, and develop a considered approach to AI-assisted decisions.",
           "sections": [
             {
-              "title": "Find your next step.",
-              "text": "Explore capabilities and guides by the work you want to do.",
+              "title": "Separate the question from the evidence",
+              "text": "Explore a way to distinguish facts, interpretations, hypotheses and sources while considering alternatives and counterevidence.",
               "links": [
                 {
                   "title": "Frame the question",
@@ -543,16 +535,16 @@
               ]
             },
             {
-              "title": "Explore the possibilities",
-              "text": "Find a workflow and the tools that fit your use case.",
+              "title": "Keep people responsible for decisions",
+              "text": "Our AI policy treats generated suggestions as material to inspect, rather than established facts or final decisions.",
               "links": [
                 {
-                  "title": "Explore use cases",
-                  "href": "/use-cases"
+                  "title": "AI use policy",
+                  "href": "/ai"
                 },
                 {
-                  "title": "Read the guides",
-                  "href": "/docs"
+                  "title": "Decision-making scenarios",
+                  "href": "/use-cases"
                 }
               ]
             },
@@ -724,8 +716,8 @@
         },
         {
           "path": "/use-cases",
-          "title": "Start with the work.",
-          "summary": "Explore approaches to organizing information and selecting tools.",
+          "title": "Organize questions, evidence and alternatives",
+          "summary": "Explore Taiper through specific scenarios and related guides.",
           "sections": [
             {
               "title": "Frame the question",
@@ -762,7 +754,7 @@
             }
           ],
           "kind": "page",
-          "label": "Start with the work.",
+          "label": "Organize questions, evidence and alternatives",
           "category": "",
           "status": "published"
         },
@@ -831,7 +823,7 @@
         },
         {
           "path": "/docs",
-          "title": "Guides and documentation",
+          "title": "Taiper guides",
           "summary": "Explore usage guides and design principles.",
           "sections": [
             {
@@ -850,7 +842,7 @@
             }
           ],
           "kind": "page",
-          "label": "Guides and documentation",
+          "label": "Taiper guides",
           "category": "",
           "status": "published"
         },
