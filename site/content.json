@@ -334,9 +334,14 @@
           "summary": "情報の意味を表すための考え方を紹介します。",
           "sections": [
             {
-              "title": "基盤として使う",
-              "text": "Taiperはsem-langを情報の構造化に利用する方針です。言語の仕様と、製品側の判断・操作を分けて扱います。",
-              "links": []
+              "title": "意味を整理する基盤",
+              "text": "言葉の定義、文脈、解釈の結果を明示するための基盤です。Taiperの判断理由、保存、操作権限とは責務を分けます。",
+              "links": [
+                {
+                  "title": "sem-langのガイド",
+                  "href": "https://sem-lang.taiper.org/docs"
+                }
+              ]
             }
           ],
           "kind": "page",
@@ -362,6 +367,16 @@
                   "href": "/security"
                 }
               ]
+            },
+            {
+              "title": "意味と判断を分ける",
+              "text": "情報の意味を扱う基盤と、人が判断を確定する役割の違いを確認します。",
+              "links": [
+                {
+                  "title": "sem-langの位置付け",
+                  "href": "/docs/sem-lang"
+                }
+              ]
             }
           ],
           "kind": "page",
@@ -371,27 +386,37 @@
         },
         {
           "path": "/docs/getting-started",
-          "title": "はじめる前に、道筋をつかむ。",
-          "summary": "機能、使う場面、データの扱いを確認するためのガイドです。",
+          "title": "意思決定を整理する",
+          "summary": "問い・根拠・選択肢・判断理由を分けて記録する手順です。",
           "sections": [
             {
-              "title": "目的を選ぶ",
-              "text": "取り組む内容を機能や用途のページで確認します。",
-              "links": [
-                {
-                  "title": "考え方を知る",
-                  "href": "/approach"
-                }
-              ]
+              "title": "1. 問いと制約を書く",
+              "text": "何を決めるか、期限、守る条件を書き、選択肢を複数並べます。",
+              "links": []
             },
             {
-              "title": "利用条件を確認する",
-              "text": "導入するソフトウェアの対応環境、ライセンス、提供版を確認してください。",
+              "title": "2. 根拠と解釈を分ける",
+              "text": "出典のある情報、解釈、仮説、AIの提案を区別します。不明点と反証も残し、情報がないことを賛成の根拠にしません。",
               "links": []
+            },
+            {
+              "title": "3. 比較と判断理由を残す",
+              "text": "選択肢ごとの利点・不利益・不確実性を同じ観点で比較し、人が採用理由と見直し条件を記録します。AIの提案は決定や実行許可の代わりにしません。",
+              "links": []
+            },
+            {
+              "title": "意味を扱う基盤",
+              "text": "sem-langは情報の意味や関係を扱います。意思決定の理由や権限はTaiperの役割として分けます。",
+              "links": [
+                {
+                  "title": "sem-langの位置付け",
+                  "href": "/docs/sem-lang"
+                }
+              ]
             }
           ],
           "kind": "page",
-          "label": "はじめる前に、道筋をつかむ。",
+          "label": "意思決定を整理する",
           "category": "",
           "status": "published"
         },
@@ -811,9 +836,14 @@
           "summary": "An introduction to representing meaning.",
           "sections": [
             {
-              "title": "A shared foundation",
-              "text": "Taiper uses sem-lang as a foundation for structuring information, while product decisions and operations remain separate.",
-              "links": []
+              "title": "A foundation for structuring meaning",
+              "text": "The foundation makes definitions, context and interpretation outcomes explicit. Taiper decision rationale, storage and operational authority are separate responsibilities.",
+              "links": [
+                {
+                  "title": "sem-lang guide",
+                  "href": "https://sem-lang.taiper.org/en/docs"
+                }
+              ]
             }
           ],
           "kind": "page",
@@ -839,6 +869,16 @@
                   "href": "/security"
                 }
               ]
+            },
+            {
+              "title": "Separate meaning from judgment",
+              "text": "Understand the distinction between structuring meaning and confirming a human decision.",
+              "links": [
+                {
+                  "title": "How sem-lang fits",
+                  "href": "/docs/sem-lang"
+                }
+              ]
             }
           ],
           "kind": "page",
@@ -848,27 +888,37 @@
         },
         {
           "path": "/docs/getting-started",
-          "title": "Find a path before getting started.",
-          "summary": "A guide to capabilities, use cases and data boundaries.",
+          "title": "Organize a decision",
+          "summary": "Record questions, evidence, alternatives and reasons separately.",
           "sections": [
             {
-              "title": "Choose a goal",
-              "text": "Explore the capability or use-case pages for the work you have in mind.",
-              "links": [
-                {
-                  "title": "Explore the approach",
-                  "href": "/approach"
-                }
-              ]
+              "title": "1. State the question and constraints",
+              "text": "Write down the decision, deadline and constraints, then list more than one option.",
+              "links": []
             },
             {
-              "title": "Review usage conditions",
-              "text": "Check the supported environment, license and available release of the software you select.",
+              "title": "2. Separate evidence and interpretation",
+              "text": "Distinguish attributed information, interpretation, hypotheses and AI suggestions. Keep unknowns and counter-evidence visible; absence of information is not evidence in favor.",
               "links": []
+            },
+            {
+              "title": "3. Record comparisons and reasons",
+              "text": "Compare benefits, drawbacks and uncertainty using the same criteria. A person records the reasons and review conditions. An AI suggestion is not a decision or permission to execute.",
+              "links": []
+            },
+            {
+              "title": "A foundation for meaning",
+              "text": "sem-lang handles meaning and relationships. Decision rationale and authority remain a separate Taiper responsibility.",
+              "links": [
+                {
+                  "title": "How sem-lang fits",
+                  "href": "/docs/sem-lang"
+                }
+              ]
             }
           ],
           "kind": "page",
-          "label": "Find a path before getting started.",
+          "label": "Organize a decision",
           "category": "",
           "status": "published"
         },
